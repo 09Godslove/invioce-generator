@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 80%;
+    box-sizing: border-box;
+    background-color: #1F2937;
+    margin: auto;
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+}
+.heading{
+    background-color: #3A69D2;
+    text-align: center;
+    color: #ffffff;
+    padding: 2rem;
+}
+.heading header{
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: -0.02em;
+}
+.heading p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 13px;
+    gap: 20px;
+}
+.buttons button{
+    width: 17.2%;
+    background: #D1D4F4;
+    border: 1px solid #D5D4D8;
+    border-radius: 7px;
+    padding: 1rem;
+    cursor: pointer;
+}
+.tasks{
+    padding-top: 3rem;
+}
+.tasks, .tasks1, .tasks2, .tasks3{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    color: #ffffff;
+    width: 53.5%;
+    margin: auto; 
+}
+.tasks1{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    color: #F5F5F5;
+    padding-top: 1rem;
+}
+.tasks2{
+    border-top: 1px solid #C3C6DB;
+    padding: 1rem 0rem;
+    margin-top: 2rem;
+}
+.tasks3{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 32px;
+    color: #D5D4D8;
+}
+#notes{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #F5F5F5;
+
+}
+#amount{
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 32px;
+    color: #F5F5F5;
+}
+.send{
+    background: #3A69D2;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 7px;
+    width: 53.5%;
+    padding: 1rem;
+    color: #ffffff;
+    cursor: pointer;
+}
